@@ -21,9 +21,9 @@ import (
 	"github.com/go-kit/kit/transport"
 	grpctransport "github.com/go-kit/kit/transport/grpc"
 
-	"github.com/go-kit/kit/examples/addsvc/pb"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
+	"github.com/go-kit/examples/addsvc/pb"
+	"github.com/go-kit/examples/addsvc/pkg/addendpoint"
+	"github.com/go-kit/examples/addsvc/pkg/addservice"
 )
 
 type grpcServer struct {

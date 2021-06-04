@@ -12,9 +12,9 @@ import (
 	"github.com/go-kit/kit/transport"
 	kithttp "github.com/go-kit/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
-	"github.com/go-kit/kit/examples/shipping/voyage"
+	"github.com/go-kit/examples/shipping/cargo"
+	"github.com/go-kit/examples/shipping/location"
+	"github.com/go-kit/examples/shipping/voyage"
 )
 
 // MakeHandler returns a handler for the handling service.

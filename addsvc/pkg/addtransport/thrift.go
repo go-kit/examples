@@ -12,9 +12,9 @@ import (
 	"github.com/go-kit/kit/endpoint"
 	"github.com/go-kit/kit/ratelimit"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	addthrift "github.com/go-kit/kit/examples/addsvc/thrift/gen-go/addsvc"
+	"github.com/go-kit/examples/addsvc/pkg/addendpoint"
+	"github.com/go-kit/examples/addsvc/pkg/addservice"
+	addthrift "github.com/go-kit/examples/addsvc/thrift/gen-go/addsvc"
 )
 
 type thriftServer struct {

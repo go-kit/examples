@@ -29,9 +29,9 @@ import (
 	"github.com/go-kit/kit/sd/lb"
 	httptransport "github.com/go-kit/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addtransport"
+	"github.com/go-kit/examples/addsvc/pkg/addendpoint"
+	"github.com/go-kit/examples/addsvc/pkg/addservice"
+	"github.com/go-kit/examples/addsvc/pkg/addtransport"
 )
 
 func main() {

@@ -10,10 +10,10 @@ import (
 
 	"golang.org/x/time/rate"
 
+	"github.com/go-kit/examples/addsvc/pkg/addendpoint"
+	"github.com/go-kit/examples/addsvc/pkg/addservice"
 	"github.com/go-kit/kit/circuitbreaker"
 	"github.com/go-kit/kit/endpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addendpoint"
-	"github.com/go-kit/kit/examples/addsvc/pkg/addservice"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/ratelimit"
 	"github.com/go-kit/kit/tracing/opentracing"
