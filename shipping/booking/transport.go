@@ -13,8 +13,8 @@ import (
 	"github.com/go-kit/kit/transport"
 	kithttp "github.com/go-kit/kit/transport/http"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
+	"github.com/go-kit/examples/shipping/cargo"
+	"github.com/go-kit/examples/shipping/location"
 )
 
 // MakeHandler returns a handler for the booking service.

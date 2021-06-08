@@ -6,8 +6,8 @@ import (
 
 	"github.com/go-kit/kit/endpoint"
 
-	"github.com/go-kit/kit/examples/shipping/cargo"
-	"github.com/go-kit/kit/examples/shipping/location"
+	"github.com/go-kit/examples/shipping/cargo"
+	"github.com/go-kit/examples/shipping/location"
 )
 
 type bookCargoRequest struct {
