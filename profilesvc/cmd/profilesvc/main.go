@@ -36,9 +36,9 @@ func main() {
 		h = profilesvc.MakeHTTPHandler(s, log.With(logger, "component", "HTTP"))
 	}
 
-	errs := make(chan error, 1)
+	errs := make(chan error)
 	go func() {
-		c := make(chan os.Signal)
+		c := make(chan os.Signal, 1)
 		signal.Notify(c, syscall.SIGINT, syscall.SIGTERM)
 		errs <- fmt.Errorf("%s", <-c)
 	}()
